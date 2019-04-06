@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bsja9.hereiam.Settings.edit_info">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="464dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+        <Button
+            android:id="@+id/save_button_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_the_patents_name"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/patName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_the_patents_age"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/patAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_the_patents_nhs_number"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/patNHS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_the_patents_phone_numer"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/patPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_the_patents_address"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/patAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_the_carer_s_name"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/carerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_the_carer_s_phone_number"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/carerPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_carer_s_id"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/carerID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter the carer company name"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/carerCom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

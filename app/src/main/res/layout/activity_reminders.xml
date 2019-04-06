@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bsja9.hereiam.Reminders.reminders">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <Button
+            android:id="@+id/call_button_reminders"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:backgroundTint="@color/buttonBlue"
+            android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+            android:text="@string/call_for_help"
+
+            android:textSize="20sp" />
+        />
+
+        <Button
+            android:id="@+id/addNewTask"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:backgroundTint="@color/buttonsPurpleLight"
+            android:drawableLeft="@drawable/ic_add_alert_black_24dp"
+            android:text="Add new Reminder"
+
+            android:textSize="20sp" />
+        />
+
+        <ListView
+            android:id="@+id/remindersList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

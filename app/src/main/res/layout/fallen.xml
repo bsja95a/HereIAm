@@ -1,0 +1,65 @@
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+
+        <TextView
+            android:id="@+id/Did_you_fall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:text="Have you fallen?"
+             />
+        <TextView
+            android:id="@+id/timmer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:text="60"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/fall_yes"
+                android:layout_width="114dp"
+                android:layout_height="75dp"
+                android:layout_gravity="right"
+                android:text="Yes"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="71dp"
+                android:backgroundTint="@color/buttonsPurpleLight"/>
+
+            <Button
+                android:id="@+id/fall_no"
+                android:layout_width="108dp"
+                android:layout_height="74dp"
+                android:layout_gravity="left"
+                android:text="No"
+                tools:layout_editor_absoluteX="56dp"
+                tools:layout_editor_absoluteY="71dp"
+                android:backgroundTint="@color/buttonsPurple"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

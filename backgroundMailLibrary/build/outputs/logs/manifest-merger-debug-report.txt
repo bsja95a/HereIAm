@@ -1,0 +1,47 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml:1:1-15:12
+INJECTED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml:1:1-15:12
+INJECTED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml:1:1-15:12
+INJECTED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml:1:1-15:12
+INJECTED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml:1:1-15:12
+INJECTED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml:1:1-15:12
+INJECTED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml:1:1-15:12
+	package
+		ADDED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml:2:5-55
+		INJECTED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml
+		INJECTED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml
+		INJECTED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml
+		INJECTED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml:6:5-47
+INJECTED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml:6:5-47
+INJECTED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml:6:5-47
+INJECTED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml:6:5-47
+INJECTED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml:6:5-47
+	android:targetSdkVersion
+		ADDED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml:6:15-44
+		INJECTED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml
+		INJECTED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml
+		ADDED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml:6:5-47
+		INJECTED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml
+application
+ADDED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml:8:5-13:19
+	android:label
+		ADDED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml:11:9-41
+	android:icon
+		ADDED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml:10:9-45
+	android:allowBackup
+		ADDED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from F:\Project\HereIAm\backgroundMailLibrary\src\main\AndroidManifest.xml:12:9-40

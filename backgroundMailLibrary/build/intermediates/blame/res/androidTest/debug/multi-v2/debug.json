@@ -1,0 +1,52 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\bsja9\\Desktop\\Project\\HereIAm\\backgroundMailLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bsja9\\Desktop\\Project\\HereIAm\\backgroundMailLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,116,161,238,318,396,474,552,843",
+                        "endLines": "2,3,4,5,6,7,8,15,18",
+                        "endColumns": "60,44,76,79,77,77,77,12,12",
+                        "endOffsets": "111,156,233,313,391,469,547,838,998"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\bsja9\\Desktop\\Project\\HereIAm\\backgroundMailLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-v14_values-v14.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bsja9\\Desktop\\Project\\HereIAm\\backgroundMailLibrary\\build\\intermediates\\bundles\\debug\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\bsja9\\Desktop\\Project\\HereIAm\\backgroundMailLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-v11_values-v11.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bsja9\\Desktop\\Project\\HereIAm\\backgroundMailLibrary\\build\\intermediates\\bundles\\debug\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    }
+                }
+            ]
+        }
+    ]
+}

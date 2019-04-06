@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:design="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.bsja9.hereiam.Settings.settings"
+    tools:showIn="@layout/activity_settings">
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        design:menu="@menu/menu_navigation">
+
+    </android.support.design.widget.BottomNavigationView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_save_black_24dp"
+        app:layout_anchor="@+id/scrollView2"
+        app:layout_anchorGravity="right|bottom"
+        android:id="@+id/fab_save"/>
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="fill_parent"
+        android:layout_height="464dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="458dp"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+
+            <Button
+                android:id="@+id/save_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/save" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/add_medicine"
+                    android:layout_width="165dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/edit_medicine_list" />
+
+                <Button
+                    android:id="@+id/add_info"
+                    android:layout_width="189dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/change_information" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Perfered contract method"
+                android:textSize="20dp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioSMS"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:text="SMS" />
+
+                <RadioButton
+                    android:id="@+id/radioEmail"
+                    android:layout_width="158dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:text="Email" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_a_phone_number"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/PhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_the_email_address"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_the_safe_zone_address_or_postcode"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/postcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/preferred_radius_measurements"
+                android:textSize="20dp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioKM"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:text="KM" />
+
+                <RadioButton
+                    android:id="@+id/radioM"
+                    android:layout_width="158dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:text="Miles" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_the_safe_zone_radius_in_miles"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/miles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/change_pincode"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/changePin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/count_down_time_in_seconds"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/seconds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

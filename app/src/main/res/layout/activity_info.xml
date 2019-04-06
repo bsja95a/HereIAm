@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:design="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bsja9.hereiam.Activities.Info">
+
+    <Button
+        android:id="@+id/call_button_info"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:backgroundTint="@color/buttonBlue"
+        android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+        android:text="@string/call_for_help"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            android:paddingTop="80dp">
+
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="164dp"
+                android:layout_height="225dp"
+                android:adjustViewBounds="false"
+                android:contentDescription="@string/photo"
+                android:gravity="right"
+                app:srcCompat="@drawable/patient"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="70dp"
+                android:layout_alignParentLeft="true"/>
+
+            <TextView
+                android:id="@+id/infoName"
+                android:layout_width="166dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                tools:layout_editor_absoluteX="109dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <TextView
+                android:id="@+id/infoAge"
+                android:layout_width="164dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="335dp" />
+
+            <TextView
+                android:id="@+id/infoAddress"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="365dp" />
+
+            <TextView
+                android:id="@+id/infoNhs"
+                android:layout_width="166dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                tools:layout_editor_absoluteX="109dp"
+                tools:layout_editor_absoluteY="393dp" />
+
+            <TextView
+                android:id="@+id/infoPhone"
+                android:layout_width="164dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="412dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:paddingTop="80dp">
+
+
+            <ImageView
+                android:id="@+id/imageViewCarer"
+                android:layout_width="164dp"
+                android:layout_height="225dp"
+                android:adjustViewBounds="false"
+                android:contentDescription="@string/photo"
+                android:gravity="center"
+                app:srcCompat="@drawable/nurse"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="70dp" />
+
+            <TextView
+                android:id="@+id/infoNameCarer"
+                android:layout_width="166dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                tools:layout_editor_absoluteX="109dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+
+            <TextView
+                android:id="@+id/infoNhsCarer"
+                android:layout_width="166dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                tools:layout_editor_absoluteX="109dp"
+                tools:layout_editor_absoluteY="393dp" />
+
+            <TextView
+                android:id="@+id/infoPhoneCarer"
+                android:layout_width="164dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="412dp" />
+
+            <TextView
+                android:id="@+id/infoCarerComp"
+                android:layout_width="164dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="412dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        design:menu="@menu/menu_navigation"
+        android:layout_gravity="bottom">
+
+    </android.support.design.widget.BottomNavigationView>
+
+
+</android.support.design.widget.CoordinatorLayout>
+

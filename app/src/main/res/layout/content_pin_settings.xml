@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:design="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.bsja9.hereiam.Settings.pin_settings"
+    tools:showIn="@layout/activity_pin_settings">
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        design:menu="@menu/menu_navigation">
+
+    </android.support.design.widget.BottomNavigationView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/call_button_pin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/buttonBlue"
+            android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+            android:text="@string/call_for_help"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/wrongPin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="@color/buttonBlue"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_the_pincode"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            />
+
+
+        <com.goodiebag.pinview.Pinview
+            android:id="@+id/pinView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cursorVisible="false"
+            app:forceKeyboard="false"
+            app:inputType="number"
+            app:password="true"
+            app:pinHeight="40dp"
+            app:pinLength="4"
+            app:pinWidth="40dp">
+
+        </com.goodiebag.pinview.Pinview>
+
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
